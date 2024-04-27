@@ -1,0 +1,56 @@
+// subscribe
+
+.subscribe__button {
+  padding: 0.5rem;
+  width: 12rem;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+// forms
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 0.5rem;
+
+}
+
+// form login
+
+.buttons__container {
+  border-radius: 10px;
+  border: 1px solid #00000033;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+  height: 3rem;
+  cursor: pointer;
+  & a{
+    color: inherit;
+  }
+}
+.buttons__container--login {
+  background-color: #63af2b;
+  color: white;
+}
+
+.buttons__image {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.buttons__container--google-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: white;
+}
+

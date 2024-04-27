@@ -1,0 +1,159 @@
+.body {
+  font-family: "poppins", sans-serif;
+  width: 100%;
+}
+
+.main-login {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem auto;
+  padding: 0 9.5rem 0 6.5rem;
+}
+
+// novedades
+
+.novedades {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.novedades--feature {
+  max-width: 80%;
+  flex-direction: column;
+}
+
+.post__body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.post__bottom {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+//   cards horizontales
+
+.cards--horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2.6rem;
+}
+
+.cards__body {
+  padding-left: 3%;
+}
+
+//   segunda sección
+
+.posts {
+  column-gap: 2rem;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.populares__cards-main {
+  display: flex;
+}
+
+.populares {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: center;
+  row-gap: 1rem;
+}
+
+.populares__cards {
+  width: 40%;
+}
+
+//   categorías
+
+.categorias {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+// subscribe
+
+.subscribe {
+  width: 80%;
+  background-color: #63af2b;
+  padding: 2rem 4rem;
+  margin-top: 2rem;
+  margin-left: 6.5rem;
+  border-radius: 6px;
+}
+
+//   footer
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding-right: 2rem;
+}
+
+// forms | login-subscribe
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: clamp(500px, 40%, 700px);
+  padding: 1rem;
+}
+
+// News
+
+.container__title-news {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
+  padding-left: 11rem;
+}
+
+.post-title-news__bottom {
+  display: flex;
+  align-items: center;
+}
+
+.post-container__novedades-news--feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eeeeee;
+  padding: 3rem;
+  border-radius: 5px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.posts-news__cards {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}

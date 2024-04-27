@@ -1,0 +1,115 @@
+// logo
+
+.logo {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  width: 75%;
+}
+
+
+// logos cards
+
+.logo__image {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 15%;
+  margin: 0;
+}
+
+//   novedades
+
+.post__img {
+  border-radius: 5px;
+  width: 580px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.post__icon--big {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  margin: 0;
+}
+
+//   cards horizontales
+
+.cards__img {
+  padding-top: 0.5rem;
+  width: 12rem;
+  height: 7.5rem;
+  border-radius: 15px;
+}
+
+.post__icon--small {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+
+//   segunda sección
+
+.post__card-img {
+  height: 170px;
+  width: 280px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+//   categorías
+
+.icons--html {
+  background-color: #e93e30;
+}
+
+.icons--js {
+  background-color: #f7e018;
+}
+
+.icons--css {
+  background-color: #299ed5;
+}
+
+.icons--react {
+  background-color: #292c33;
+}
+
+.icons--vue {
+  background-color: #67c770;
+}
+
+.icons--boots {
+  background-color: #563d7c;
+}
+
+.categorias__img {
+  max-height: 80%;
+}
+
+//   footer
+
+.logo--footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+// news
+
+.post-title-news__bottom-icon--big {
+  height: 2rem;
+  width: 2rem;
+  margin: 0;
+  border-radius: 50%;
+}
+
+.news__img {
+  border-radius: 15px;
+  margin: 4%;
+  width: 580px;
+  height: 300px;
+  object-fit: cover;
+}

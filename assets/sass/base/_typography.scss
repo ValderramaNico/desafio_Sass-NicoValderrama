@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+// titulo
+
+.logo__titulo {
+  width: 14rem;
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 2%;
+  margin: 0;
+  padding: 0;
+}
+
+// Novedades
+
+.post-title__category {
+  margin: 0;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.post__body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.post__icon-text--big {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 5%;
+}
+
+// cards horizontales
+
+.cards__date--small {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0%;
+}
+
+.cards__title--small {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0%;
+}
+
+.post__icon-text--small {
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 5%;
+}
+
+// cards *4
+
+// categorías
+
+// Cards categorías
+
+.categorias__icons {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+  border-radius: 8px;
+  width: 15rem;
+  height: 4rem;
+}
+
+.categorias__title {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+// subscribe
+
+.subscribe__title {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+// footer
+
+.footer__text {
+  font-size: 20px;
+  font-weight: 400;
+  padding-right: 3rem;
+}
+
+// forms
+
+.input__title {
+  text-align: center;
+  font-weight: 500;
+}
+
+.buttons-container__login-text {
+  text-align: center;
+}
+
+// news
+
+.post__title-news--big {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 2rem;
+}
+
+.post-title-news__bottom-icon-text--big {
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 0.5%;
+}
+
+.post-title-news__bottom-date--big {
+  font-size: 16px;
+  padding-left: 2rem;
+}
+
+.post-news__novedades-text {
+  width: 100%;
+  word-wrap: break-word;
+}
